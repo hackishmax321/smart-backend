@@ -3,24 +3,14 @@ from fastapi import FastAPI, HTTPException, File, UploadFile, Form
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
-import bcrypt
 import os
 import shutil
 from typing import List, Optional, Dict
 from firestore_db import get_firestore_client
 import joblib
 import pandas as pd
-from google.cloud import firestore
-from datetime import datetime
 import numpy as np
-from PIL import Image
-# from tensorflow.keras.models import load_model
-import uuid
-# import firebase_admin
-# from firebase_admin import credentials, db as FireDB
 import traceback
-from pdfminer.high_level import extract_text
-import easyocr
 import re
 from autocorrect import Speller
 from sklearn.preprocessing import StandardScaler, FunctionTransformer

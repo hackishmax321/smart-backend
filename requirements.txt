@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+python-multipart
+google-cloud-firestore
+google-cloud-vision
+joblib
+pandas
+numpy
+scikit-learn
+autocorrect
