@@ -6,7 +6,7 @@ from pydantic import BaseModel, Field
 import os
 import shutil
 from typing import List, Optional, Dict
-from firestore_db import get_firestore_client
+# from firestore_db import get_firestore_client
 import joblib
 import pandas as pd
 import numpy as np
